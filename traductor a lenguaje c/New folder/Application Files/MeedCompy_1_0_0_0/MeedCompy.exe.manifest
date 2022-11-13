@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MeedCompy.exe" version="1.0.0.0" publicKeyToken="b60590536e0a06a2" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MeedCompy" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MeedCompy.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MeedCompy.exe" size="2633712">
+      <assemblyIdentity name="MeedCompy" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>A6rHYfc/GN7NXHgpH0FNH7V9UccOCSO4Aw4TPDZtVD0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MeedCompy.exe.config" size="190">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WfBpbjuOgGXo5+tApAIF9UyiLsco8/5OPWXzh4KvWDE=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-E6LVGN4\EDWIN-PC" issuerKeyHash="fb2cd5516e7883f0f8f084e6604224ea56c74be1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jAfh+aJMdtzNgBhvYTk089kQuS2m+VkrffEfDVRLGnA=</DigestValue></Reference></SignedInfo><SignatureValue>M9/zRsyQJVRrW8bqJnxwcUeaT1K85gZWVun4SXw9tgXruQqVhgQrLVFcNRtXFbl0a/qeeV85QPOaMjZlkKc5UUPKLmzOhaghQBt/hUekPjDeNcb7utghmmPoOLTQkZ3SfVmKVzjc7u1Uv6NfpADy7Z377fa0UIOaU06/BM1zl6o=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>reAgR8mgPWmBF3ftAH+lAx8x4vFpzjwTyt8bDdHzq5AkxD9SXpwVlYcawlgSbPrWLdq8eTTsNFuHbOCnlqLarztHRabezaBFaK6Tvx9erue4tLxj37wumsvXn2SqrBsi7derD71xiiVHep/g/QfvMud/Nz2UIGc5+B+eQ3FhLgU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="701a4b540d1ff17d2b59f9a62db910d9f33439616f1880cddc764ca2f9e1078c" Description="" Url=""><as:assemblyIdentity name="MeedCompy.exe" version="1.0.0.0" publicKeyToken="b60590536e0a06a2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-E6LVGN4\EDWIN-PC</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>zDPNhjJMaQvJeYdqNRnCoh24p6pTFHug4JpA+FdKrB8=</DigestValue></Reference></SignedInfo><SignatureValue>iUN5fnLh2qzT+RlbFGlZZmFYl5mWu6BJ2btB/dYHRa/qbI0DQfv/kdt38/dK69C1jQdLAgrYSdRoYus6hLHbRofdpFSbvhstwwBUs9T9EHbupNQ6EejDlZmzS7mUurDuMNsOJ/Ecdl64fQm4NR6bWafeXWqXCozMJqQCmCPGvpg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>reAgR8mgPWmBF3ftAH+lAx8x4vFpzjwTyt8bDdHzq5AkxD9SXpwVlYcawlgSbPrWLdq8eTTsNFuHbOCnlqLarztHRabezaBFaK6Tvx9erue4tLxj37wumsvXn2SqrBsi7derD71xiiVHep/g/QfvMud/Nz2UIGc5+B+eQ3FhLgU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB+TCCAWKgAwIBAgIQPlRN476E0b1FhXeJNIFFxTANBgkqhkiG9w0BAQsFADA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtAEUANgBMAFYARwBOADQAXABFAEQAVwBJAE4ALQBQAEMwHhcNMjIxMTA3MDAwMjM2WhcNMjMxMTA3MDYwMjM2WjA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtAEUANgBMAFYARwBOADQAXABFAEQAVwBJAE4ALQBQAEMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAK3gIEfJoD1pgRd37QB/pQMfMeLxac48E8rfGw3R86uQJMQ/Ul6cFZWHGsJYEmz61i3avHk07DRbh2zgp5ai2q87R0Wm3s2gRWiuk78fXq7nuLS8Y9+8LprL159kqqwbIu3Xqw+9cYolR3qf4P0H7zLnfzc9lCBnOfgfnkNxYS4FAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAQyKPNzvbqWMKoiCLvCcba8k+o5dfvZztFQc2DHe8JtWgTIujeQJ8bMwOcNPoRbppK8GpYqGWuSIOXcBFCXcxPmt34aB2SNei/wuHhdkYJRQXI/upAkFq8fchjy44a0ENC4NNCrexOrgzia6J8Cuoli2lDM7+Q3eXZ1rJJmf9nC4=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

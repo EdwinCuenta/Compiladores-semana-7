@@ -1,0 +1,11 @@
+inicio {
+
+# numero 4
+
+@ cadena << edwin acevedo >>
+
+si ( numero == 4 ) hacer {
+
+?
+
+};
